@@ -5,8 +5,8 @@
     defaults:
       rating: undefined
       numStars: 5
-      emptyStarClass: 'fa fa-star star-empty'
-      fullStarClass: 'fa fa-star'
+      emptyStarClass: 'rate-star star-empty'
+      fullStarClass: 'rate-star'
       change: (e, value) ->
 
     constructor: ($el, options) ->

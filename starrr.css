@@ -4,12 +4,18 @@
   border: 1px solid #d2d7db;
   border-radius: 4px;
   padding: 9px 12px 5px; }
-  .starrr .fa-star {
-    font-size: 18px;
+  .starrr .rate-star {
     padding: 0 2px;
-    cursor: pointer;
-    color: #f6c530; }
-  .starrr .star-empty {
-    color: #d2d7db; }
+    cursor: pointer; }
+    .starrr .rate-star:before {
+      content: '';
+      display: inline-block;
+      width: 16px;
+      height: 15px;
+      background-image: url(starrr-sprite.png);
+      background-repeat: no-repeat;
+      background-position: 0 0; }
+  .starrr .star-empty:before {
+    background-position: 0 -30px; }
 
 /*# sourceMappingURL=starrr.css.map */

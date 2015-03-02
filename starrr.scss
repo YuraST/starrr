@@ -5,15 +5,23 @@
   border-radius: 4px;
   padding: 9px 12px 5px;
 
-  .fa-star {
-    font-size: 18px;
+  .rate-star {
     padding: 0 2px;
     cursor: pointer;
-    color: #f6c530;
+
+    &:before {
+      content: '';
+      display: inline-block;
+      width: 16px;
+      height: 15px;
+      background-image: url(starrr-sprite.png);
+      background-repeat: no-repeat;
+      background-position: 0 0;
+    }
   }
 
-  .star-empty {
-    color: #d2d7db;
+  .star-empty:before {
+    background-position: 0 -30px;
   }
 }
 
