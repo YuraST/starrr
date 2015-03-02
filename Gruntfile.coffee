@@ -43,4 +43,4 @@ module.exports = (grunt) ->
         file: 'bower.json'
         npm: false
 
-  grunt.registerTask 'default', ['coffee:all', 'sass:all', 'cssmin:dist', 'uglify:dist']
+  grunt.registerTask 'default', ['coffee:all', 'sass:all', 'cssmin:dist', 'uglify:dist', 'watch:all']

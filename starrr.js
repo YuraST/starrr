@@ -6,7 +6,7 @@ var __slice = [].slice;
     Starrr.prototype.defaults = {
       rating: void 0,
       numStars: 5,
-      emptyStarClass: 'fa fa-star-o',
+      emptyStarClass: 'fa fa-star star-empty',
       fullStarClass: 'fa fa-star',
       change: function(e, value) {}
     };

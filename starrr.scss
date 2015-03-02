@@ -1,12 +1,20 @@
-$starrrColor: #FFD119 !default;
-
 .starrr {
   display: inline-block;
+  background-color: #fff;
+  border: 1px solid #d2d7db;
+  border-radius: 4px;
+  padding: 9px 12px 5px;
 
-  i {
-    font-size: 16px;
-    padding: 0 1px;
+  .fa-star {
+    font-size: 18px;
+    padding: 0 2px;
     cursor: pointer;
-    color: $starrrColor;
+    color: #f6c530;
+  }
+
+  .star-empty {
+    color: #d2d7db;
   }
 }
+
+

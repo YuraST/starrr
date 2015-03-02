@@ -5,7 +5,7 @@
     defaults:
       rating: undefined
       numStars: 5
-      emptyStarClass: 'fa fa-star-o'
+      emptyStarClass: 'fa fa-star star-empty'
       fullStarClass: 'fa fa-star'
       change: (e, value) ->
 
