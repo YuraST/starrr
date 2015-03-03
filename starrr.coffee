@@ -81,6 +81,3 @@
         data[option].apply(data, args)
 
 ) window.jQuery, window
-
-$ ->
-  $(".starrr").starrr()
